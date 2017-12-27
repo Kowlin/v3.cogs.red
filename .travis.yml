@@ -15,6 +15,6 @@ branches:
   only:
     - master
     - develop
-    - \[Rr]elease\/(.*)\
-    - \[Ff]eature\/(.*)\
-    - \[Hh]otfix\/(.*)\
+    - \^(?i:release)\/.*$\
+    - \^(?i:feature)\/.*$\
+    - \^(?i:hotfix)\/.*$\
