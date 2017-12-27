@@ -13,8 +13,8 @@ notifications:
   emails: false
 branches:
   only:
-    - master
-    - develop
-    - \^(?i:release)\/.*$\
-    - \^(?i:feature)\/.*$\
-    - \^(?i:hotfix)\/.*$\
+  - master
+  - develop
+  - \^(?i:release)\/.*$\
+  - \^(?i:feature)\/.*$\
+  - \^(?i:hotfix)\/.*$\
